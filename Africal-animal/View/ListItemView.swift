@@ -8,11 +8,45 @@
 import SwiftUI
 
 struct ListItemView: View {
+    
+    let animals : AnimalModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 16){
+            Image(animals.image)
+                .resizable()
+                .scaledToFill()
+                .frame(width: 90, height: 90)
+                .clipShape(
+                    RoundedRectangle(cornerRadius:12)
+                )
+            
+            VStack(alignment: .leading){
+                Text(animals.name)
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.accentColor)
+                
+                Text(animals.headline)
+                    .font(.footnote)
+                    .multilineTextAlignment(.leading)
+                    .lineLimit(2)
+                    .padding(.trailing, 8)
+                    
+                
+            }
+        }
     }
 }
 
-#Preview {
-    ListItemView()
+struct ListItemView_Previews : PreviewProvider {
+    static let animal : [AnimalModel] =
+        Bundle.main.decode("animals.json")
+    
+    static var previews: some View {
+        ListItemView(animals: animal[0])
+            .previewLayout(.sizeThatFits)
+            .padding()
+            
+    }
 }

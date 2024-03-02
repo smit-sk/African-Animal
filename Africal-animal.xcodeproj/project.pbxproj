@@ -39,6 +39,8 @@
 		8165A7F82B927F9000BFB329 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7F72B927F9000BFB329 /* VideoListItem.swift */; };
 		8165A7FA2B92895D00BFB329 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7F92B92895D00BFB329 /* VideoPlayerView.swift */; };
 		8165A7FD2B928C1400BFB329 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7FC2B928C1400BFB329 /* VideoPlayerHelper.swift */; };
+		8165A7FF2B9297D500BFB329 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7FE2B9297D500BFB329 /* LocationModel.swift */; };
+		8165A8012B929EB700BFB329 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A8002B929EB700BFB329 /* MapAnnotationView.swift */; };
 		81CEBF982B8D7C0800AFA5F3 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEBF972B8D7C0800AFA5F3 /* AnimalDetailView.swift */; };
 		81CEBF9A2B8FCB1B00AFA5F3 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEBF992B8FCB1B00AFA5F3 /* HeadingView.swift */; };
 		81CEBF9C2B8FCCDD00AFA5F3 /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEBF9B2B8FCCDD00AFA5F3 /* InsetGalleryView.swift */; };
@@ -82,6 +84,8 @@
 		8165A7F72B927F9000BFB329 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		8165A7F92B92895D00BFB329 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		8165A7FC2B928C1400BFB329 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		8165A7FE2B9297D500BFB329 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		8165A8002B929EB700BFB329 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		81CEBF972B8D7C0800AFA5F3 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		81CEBF992B8FCB1B00AFA5F3 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		81CEBF9B2B8FCCDD00AFA5F3 /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
@@ -197,6 +201,7 @@
 				81CEBF992B8FCB1B00AFA5F3 /* HeadingView.swift */,
 				8165A7F92B92895D00BFB329 /* VideoPlayerView.swift */,
 				8165A7F72B927F9000BFB329 /* VideoListItem.swift */,
+				8165A8002B929EB700BFB329 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				811D1F242B8C11A100DC2A93 /* CoverImageModel.swift */,
 				811D1F2B2B8C268F00DC2A93 /* AnimalModel.swift */,
 				8165A7F52B927F3700BFB329 /* VideoModel.swift */,
+				8165A7FE2B9297D500BFB329 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,9 +331,11 @@
 				8165A7FD2B928C1400BFB329 /* VideoPlayerHelper.swift in Sources */,
 				811D1ED82B89559E00DC2A93 /* Africal_animalApp.swift in Sources */,
 				811D1F0D2B8958A600DC2A93 /* VideoListView.swift in Sources */,
+				8165A8012B929EB700BFB329 /* MapAnnotationView.swift in Sources */,
 				811D1F112B8958C300DC2A93 /* GalleryView.swift in Sources */,
 				8165A7F62B927F3700BFB329 /* VideoModel.swift in Sources */,
 				81CEBF9C2B8FCCDD00AFA5F3 /* InsetGalleryView.swift in Sources */,
+				8165A7FF2B9297D500BFB329 /* LocationModel.swift in Sources */,
 				811D1F282B8C124100DC2A93 /* CodeableBundleExtension.swift in Sources */,
 				8165A7F82B927F9000BFB329 /* VideoListItem.swift in Sources */,
 				81CEBFA22B8FDB2900AFA5F3 /* ExternalWebView.swift in Sources */,

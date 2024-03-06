@@ -35,6 +35,9 @@
 		811D1F282B8C124100DC2A93 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D1F272B8C124100DC2A93 /* CodeableBundleExtension.swift */; };
 		811D1F2A2B8C194E00DC2A93 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D1F292B8C194E00DC2A93 /* ListItemView.swift */; };
 		811D1F2C2B8C268F00DC2A93 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811D1F2B2B8C268F00DC2A93 /* AnimalModel.swift */; };
+		815C14A92B96472A009FFE6F /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C14A82B96472A009FFE6F /* AnimalGridItemView.swift */; };
+		815C14B92B97F1DB009FFE6F /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C14B82B97F1DB009FFE6F /* CreditsView.swift */; };
+		815C14BB2B97F3CA009FFE6F /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815C14BA2B97F3CA009FFE6F /* CenterModifier.swift */; };
 		8165A7F62B927F3700BFB329 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7F52B927F3700BFB329 /* VideoModel.swift */; };
 		8165A7F82B927F9000BFB329 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7F72B927F9000BFB329 /* VideoListItem.swift */; };
 		8165A7FA2B92895D00BFB329 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8165A7F92B92895D00BFB329 /* VideoPlayerView.swift */; };
@@ -49,6 +52,19 @@
 		81CEBFA02B8FD49C00AFA5F3 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEBF9F2B8FD49C00AFA5F3 /* InsetMapView.swift */; };
 		81CEBFA22B8FDB2900AFA5F3 /* ExternalWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEBFA12B8FDB2900AFA5F3 /* ExternalWebView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		815C14B42B97EF28009FFE6F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		811D1ED42B89559E00DC2A93 /* Africal-animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Africal-animal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +97,9 @@
 		811D1F272B8C124100DC2A93 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
 		811D1F292B8C194E00DC2A93 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		811D1F2B2B8C268F00DC2A93 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		815C14A82B96472A009FFE6F /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		815C14B82B97F1DB009FFE6F /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		815C14BA2B97F3CA009FFE6F /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
 		8165A7F52B927F3700BFB329 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		8165A7F72B927F9000BFB329 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
 		8165A7F92B92895D00BFB329 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -175,6 +194,7 @@
 				811D1F0E2B8958BA00DC2A93 /* MapView.swift */,
 				811D1F102B8958C300DC2A93 /* GalleryView.swift */,
 				811D1F122B8958CD00DC2A93 /* MainView.swift */,
+				815C14BA2B97F3CA009FFE6F /* CenterModifier.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -205,6 +225,8 @@
 				8165A7F72B927F9000BFB329 /* VideoListItem.swift */,
 				8165A8002B929EB700BFB329 /* MapAnnotationView.swift */,
 				81CB5FBC2B93E91B008A716F /* MotionAnimationView.swift */,
+				815C14A82B96472A009FFE6F /* AnimalGridItemView.swift */,
+				815C14B82B97F1DB009FFE6F /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,6 +268,7 @@
 				811D1ED02B89559E00DC2A93 /* Sources */,
 				811D1ED12B89559E00DC2A93 /* Frameworks */,
 				811D1ED22B89559E00DC2A93 /* Resources */,
+				815C14B42B97EF28009FFE6F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -339,10 +362,13 @@
 				8165A7F62B927F3700BFB329 /* VideoModel.swift in Sources */,
 				81CEBF9C2B8FCCDD00AFA5F3 /* InsetGalleryView.swift in Sources */,
 				8165A7FF2B9297D500BFB329 /* LocationModel.swift in Sources */,
+				815C14A92B96472A009FFE6F /* AnimalGridItemView.swift in Sources */,
 				811D1F282B8C124100DC2A93 /* CodeableBundleExtension.swift in Sources */,
 				8165A7F82B927F9000BFB329 /* VideoListItem.swift in Sources */,
+				815C14B92B97F1DB009FFE6F /* CreditsView.swift in Sources */,
 				81CEBFA22B8FDB2900AFA5F3 /* ExternalWebView.swift in Sources */,
 				81CB5FBD2B93E91B008A716F /* MotionAnimationView.swift in Sources */,
+				815C14BB2B97F3CA009FFE6F /* CenterModifier.swift in Sources */,
 				81CEBF9A2B8FCB1B00AFA5F3 /* HeadingView.swift in Sources */,
 				8165A7FA2B92895D00BFB329 /* VideoPlayerView.swift in Sources */,
 			);

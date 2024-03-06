@@ -7,12 +7,13 @@
 
 import SwiftUI
 
-struct CenterModifier: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CenterModifier: ViewModifier {
+    func body(content: Content)-> some View{
+        HStack {
+            Spacer()
+            content
+            Spacer()
+        }
     }
 }
 
-#Preview {
-    CenterModifier()
-}
